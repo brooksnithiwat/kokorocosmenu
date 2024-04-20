@@ -1,0 +1,92 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sinbad Cosplay Website</title>
+    <link rel="icon" type="image/png" href="samsung-logo-black-png-5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="firstpage">
+    <div class="header">
+        <a href="#" class="logo">SinBad-Menu</a>
+        <input type="checkbox"  id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#Menu" style="--i:0;">Menu</a>
+            <a href="#Gacha" style="--i:1;">Gacha</a>
+            <a href="#Payment" style="--i:2;">Payment</a>
+        </nav>
+    </div>
+    
+    <section class="Menu" id="Menu">
+
+        <div class="centered-input">
+            <input type="text" id="searchInput" class="search-box" placeholder="Enter character name here">
+            <button onclick="search()" class="search-icon"><i class='bx bx-search-alt-2'></i></button>
+            </div> 
+            <!-- Buttons for anime titles -->
+            <button class="search-button" onclick="searchByTitle('Bungou Stray Dogs')">Bungou Stray Dogs</button>
+            <button class="search-button" onclick="searchByTitle('Mashle magic and muscle')">Mashle magic and muscle</button>
+            <button class="search-button" onclick="searchByTitle('Blue lock')">Blue lock</button>
+            <button class="search-button" onclick="searchByTitle('My hero academia')">My hero academia</button>
+            <button class="search-button" onclick="searchByTitle('Jujutsu kaisen')">Jujutsu kaisen</button>
+            <button class="search-button" onclick="searchByTitle('Genshin impact')">Genshin impact</button>
+            <button class="search-button" onclick="searchByTitle('Katekyo hitman reborn!')">Katekyo hitman reborn!</button>
+            <button class="search-button" onclick="searchByTitle('Kuroko')">Kuroko no basket</button>
+            <button class="search-button" onclick="searchByTitle('Attack on titan')">Attack on titan</button>
+            <button class="search-button" onclick="searchByTitle('Cardfight vanguard')">Cardfight vanguard!</button>
+            <button class="search-button" onclick="searchByTitle('One piece')">One piece</button>
+            <button class="search-button" onclick="searchByTitle('Black butler')">Black Butler</button>
+            <button class="search-button" onclick="searchByTitle('Ouran host club')">Ouran host club</button>
+            <button class="search-button" onclick="searchByTitle('Chainsaw man')">Chainsaw man</button>
+            <!-- <button class="search-button" onclick="searchByTitle('Tokyo Revengers')">Tokyo Revengers</button> -->
+          
+            <!-- Container for search results -->
+            <div id="results"></div>
+    </section>
+</div>
+<div class="compsoul-body" id="Gacha">
+    <input class="compsoul-roulette-checkbox hidden" id="compsoul-roulette-checkbox" type="checkbox" name="compsoul-roulette-checkbox">
+    <label class="compsoul-roulette-label" for="compsoul-roulette-checkbox"></label>
+    <div class="compsoul-roulette">
+      <ul class="roulette-list">
+        <li class="roulette-item">Kabedon</li>
+        <li class="roulette-item">เลือก Photo 4x6 1 รูป</li>
+        <li class="roulette-item">นั่งตักผม/ให้ผมนั่งตัก</li>
+        <li class="roulette-item">2 shot 1 รูปครับผม</li>
+        <li class="roulette-item">สุ่ม Photo 4x6 1 รูป</li>
+        <li class="roulette-item">ให้กำลังใจ 1 เรื่อง!</li>
+        <li class="roulette-item">หยิกแก้ม+สุ่มโฟโต้ 1 รูป</li>
+        <li class="roulette-item">สั่งอะไรก็ได้(no 18+)</li>
+        <li class="roulette-item">ลูบหัวผม/ให้ผมลูบ</li>
+        <li class="roulette-item">นวดไหล่/หลัง</li>
+        <li class="roulette-item">จับมือ+สุ่มโฟโต้ 1 รูป</li>
+        <li class="roulette-item">เซอร์วิสตามที่ขอ</li>
+      </ul>
+      <div class="roulette-marker"></div>
+    </div>
+  </div>
+
+  <div class="Payment" id="Payment">
+    <img src="qr.jpg" class="imgqr">
+
+  </div>
+  <footer class="foot">
+    <p>&copy; 2024 Sinbad Thethird menu web. </p>
+    <p>     All rights reserved.</p>
+</footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
