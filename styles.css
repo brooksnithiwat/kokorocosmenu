@@ -6,12 +6,12 @@
     font-weight: lighter;
 }
 body{
-  background: linear-gradient(to right, rgb(242, 133, 0), rgba(0, 247, 21, 0)); /* Gradient background */
+  background: linear-gradient(to right, rgb(1, 1, 1), rgba(0, 247, 21, 0)); /* Gradient background */
     color: aliceblue;
     scroll-behavior: smooth;
 }
 .firstpage{
-    background: url(orange.jpg) no-repeat;
+    background: url(seb.jpg) no-repeat;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -185,7 +185,7 @@ nav.navbar a:hover {
 .search-box{
     /* margin-top: 100px; */
     border-radius: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(52, 18, 18);
     text-indent: 20px;
 }
 .search-icon{
@@ -197,7 +197,7 @@ nav.navbar a:hover {
     transition: .5s;
 }
 .search-icon:hover{
-background-color:rgb(27, 68, 43);
+background-color:rgb(100, 32, 32);
 }
 .centered-input input[type="text"] {
     width: 300px; /* Adjust as needed */
@@ -207,7 +207,7 @@ background-color:rgb(27, 68, 43);
     margin-bottom: 10px;
 }
 .search-button {
-    color: rgb(24, 74, 46);
+    color: rgb(100, 32, 32);
     background-color: rgb(255, 255, 255);
     border: 4px solid rgb(0, 0, 0);
     border: none;
@@ -215,7 +215,7 @@ background-color:rgb(27, 68, 43);
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 13.5px;
     margin: 4px 4px 4px 2px; /* Adjust margin-right here */
     cursor: pointer;
     border-radius: 8px; /* Rounded corners */
@@ -224,14 +224,14 @@ background-color:rgb(27, 68, 43);
 }
 footer {
   text-align: center;
-  background-color: #f07c17;
+  background-color: #000000;
   padding: 20px 0;
 }
 
 footer p {
   margin: 0;
   font-size: 17px;
-  color: #000000;
+  color: #ffffff;
 }
 
 footer p a {
@@ -244,10 +244,10 @@ footer p a:hover {
 }
 
 .search-button:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    background-color: rgb(21, 55, 40);
-    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(100, 32, 32);
+    border: 2px solid rgb(0, 0, 0);
 }
 
 /* Styles for search results */
@@ -287,7 +287,7 @@ footer p a:hover {
   }
   .compsoul-body {
     align-items: center;
-    background: linear-gradient(to bottom , #175b36, #76b98d); /* Green gradient */
+    background: linear-gradient(to bottom , #000000, #ffffff); /* Green gradient */
     display: flex;
     flex-flow: column wrap;
     font-size: 2vw;
@@ -306,7 +306,7 @@ footer p a:hover {
   
   .compsoul-roulette-label {
     font-size: 30px;
-    background-color: rgb(11, 62, 11);
+    background-color: rgb(58, 139, 58);
     border-radius: 20%;
     border: 4px solid white; /* Make it white */
 }
